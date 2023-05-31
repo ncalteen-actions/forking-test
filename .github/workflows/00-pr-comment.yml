@@ -11,6 +11,9 @@ jobs:
   comment:
     name: Comment on the PR
     runs-on: ubuntu-latest
+    
+    permissions:
+      issues: write
 
     steps:
       - name: Dump the context
