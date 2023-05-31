@@ -17,6 +17,10 @@ jobs:
       issues: write
       pull-requests: write
 
+    permissions:
+      issues: write
+      pull-requests: write
+
     steps:
       - name: Dump the context
         uses: actions/github-script@v6
